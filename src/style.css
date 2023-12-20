@@ -1,0 +1,81 @@
+body{
+    background-color:#ebeaea;
+}
+
+header{
+    background-image: url(FundoAmareloLupaPreta.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    background-color: #322d37;
+    color:#e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align:left;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.counter{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 650px;
+    border-color: #322d37;
+    border-style:dotted;
+    border-width: 1px;
+    margin: 10px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #322d37;
+    font-size: 20px;
+}
+
+textarea[name="user-input"]{
+    border-color: #322d37;
+    border-style: dotted;
+    border-radius: 5px;
+}
+
+#reset-button{
+    background-color:#322d37;
+    color:#e2e2e2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    }
+
+#reset-button:hover{
+    background-color:#e2e2e2;
+    color:#322d37;
+}
+
+footer {
+    background-color: #322d37;
+    height:fit-content;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: bold;
+    text-align: right;
+    padding: 1px 10px 1px 1px;
+    color: #e2e2e2;
+
+}
+
+//.format{
+    width:100px;
+    display: inline-block;
+}
