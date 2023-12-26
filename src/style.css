@@ -25,7 +25,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     border-radius: 5px;
-    width: 650px;
+    width: 550px;
     border-color: #322d37;
     border-style:dotted;
     border-width: 1px;
@@ -39,12 +39,14 @@ label{
     font-family: Arial, Helvetica, sans-serif;
     color: #322d37;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 textarea[name="user-input"]{
     border-color: #322d37;
     border-style: dotted;
     border-radius: 5px;
+    padding: 5px;
 }
 
 #reset-button{
@@ -56,6 +58,7 @@ textarea[name="user-input"]{
     align-items: center;
     border-radius: 5px;
     padding: 5px;
+    cursor: pointer;
     }
 
 #reset-button:hover{
@@ -75,7 +78,3 @@ footer {
 
 }
 
-//.format{
-    width:100px;
-    display: inline-block;
-}

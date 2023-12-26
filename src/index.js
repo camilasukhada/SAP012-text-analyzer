@@ -1,3 +1,17 @@
 import analyzer from './analyzer.js';
 
-//TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
+const textarea=document.querySelector("textarea");
+
+const botao=document.getElementById("reset-button");
+
+function atualizaCaracter(){
+    document.querySelector("li[data-testid='word-count']").textContent="Contagem de palavras: " + analyzer.getWordCount(textarea.value);
+}
+    textarea.addEventListener('input', atualizaCaracter);
+    botao.addEventListener('click', () =>{
+        textarea.value='';
+        atualizaCaracter();
+
+
+});
+
