@@ -68,19 +68,13 @@ A lista de funcionalidades é a seguinte:
     em no botão "LIMPAR TEXTO".
 
 ![Demonstração do analisador de texto](src/TextAnalyzerGif.gif "Demonstração do analisador de texto")
+![Status](https://img.shields.io/static/v1?label=Status&message=CONCLU%C3%8DDO&color=%3CCOLOR%3E&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
 
 ## 5. Boilerplate
 
-A lógica do projeto deve ser implementada completamente em JavaScript. Neste
-projeto, NÃO é permitido usar bibliotecas ou frameworks, apenas JavaScript
-puro, também conhecido como Vanilla JavaScript.
-
-Para começar este projeto, você precisará fazer um _fork_ e _clonar_ este
-repositório que contém um _boilerplate_ com testes. Um _boilerplate_
-é a estrutura básica de um projeto que serve como um ponto de partida com
-arquivos e configuração inicial de dependências e testes.
-
-O _boilerplate_ que fornecemos contém a seguinte estrutura:
+A lógica deste projeto foi implementada em javascript. Não foi permitido o uso de bibliotecas e frameworks, apenas JavaScript puro, também conhecido como Vanilla Javascript.
+Para começar este projeto, foi feito -fork_ e clone de um repositório da **Laboratória**, a partir do qual foi fornecida a estrutura básica com arquivos e configuração inicial de dependêncuas e testes, o _boilerplate_.
+O _boilerplate_ continha a seguinte estrutura:
 
     ./
     ├── .babelrc
@@ -100,20 +94,20 @@ O _boilerplate_ que fornecemos contém a seguinte estrutura:
 
 ### Descrição de scripts / arquivos
 
-- `README.md`: você deve modificá-lo para explicar as informações necessárias para
-  o uso da sua aplicação web, bem como uma introdução à aplicação, sua funcionalidade
-  e decisões de design que você tomou.
+- **`README.md`**: este arquivo a princípio continha as orientações e regras para a execução do projeto. E posteriormente, foi editado para o presente arquivo com as descrições e observações sobre a conclusão do projeto.
+
 - `.github/workflows`: esta pasta contém a configuração para
-a execução do Github Actions.
-  Você não deve modificar esta pasta nem seu conteúdo.
+a execução do Github Actions. Essa pasta não foi modificada durante a execução do projeto.
+
 - `read-only/`: esta pasta contém os testes dos critérios mínimos de aceitação
-e end-to-end. Você não deve modificar esta pasta nem seu conteúdo.
-- [`src/index.html`](./src/index.html): este é o ponto de entrada da sua aplicação.
-  Este arquivo deve conter o seu HTML.
-- [`src/style.css`](./src/style.css): este arquivo deve conter as regras de
-estilo. Queremos que você escreva suas próprias regras, portanto, NÃO é
-permitido o uso de frameworks de CSS (Bootstrap, Materialize, etc).
-- [`src/analyzer.js`](./src/analyzer.js): aqui você deve implementar
+e end-to-end. Essa pasta não foi modificada durante a execução do projeto.
+
+- **[`src/index.html`]**(./src/index.html): este arquivo contém o HTML, que fornece a estrutura da página.
+
+- **[`src/style.css`]**(./src/style.css): este arquivo contém o CSS, que configura as regras de
+estilo da página. Não foi permitido o uso de frameworks de CSS (Bootstrap, Materialize, etc).
+
+- **[`src/analyzer.js`]**(./src/analyzer.js): aqui você deve implementar
 o objeto `analyzer`, que já está _exportado_ no _boilerplate_.
 Este objeto (`analyzer`) deve conter seis métodos:
 
