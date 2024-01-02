@@ -18,9 +18,9 @@
 
 ## 1. Considerações gerais
 
-- Este projeto foi desenvolvido de forma **individual**, com apoio da equipe e das colegas do Bootcamp de Desenvolvimento Front-end da **Laboratória**
-- O tempo para completar o projeto foi 3 Sprints.
-- O principal objetivo desse projeto é a aprendizagem e o desenvolvimento de habilidades técnicas e softskilss.
+- Este projeto foi desenvolvido de forma **individual**, com apoio da equipe e das colegas do Bootcamp de Desenvolvimento Front-end da **Laboratória**.
+- O projeto foi realizado em 3 Sprints.
+- O principal objetivo desse projeto é a aprendizagem e o desenvolvimento de habilidades técnicas e softskills.
 
 ## 2. Preâmbulo
 
