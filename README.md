@@ -1,5 +1,7 @@
 <img src="/src/BannerTextAnalyzer.jpg">
 
+![Status](https://img.shields.io/static/v1?label=Status&message=CONCLU%C3%8DDO&color=%3CCOLOR%3E&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
+
 ## Índice
 
 - [1. Considerações gerais](#1-considerações-gerais)
@@ -68,7 +70,6 @@ A lista de funcionalidades é a seguinte:
     em no botão "LIMPAR TEXTO".
 
 ![Demonstração do analisador de texto](src/TextAnalyzerGif.gif "Demonstração do analisador de texto")
-![Status](https://img.shields.io/static/v1?label=Status&message=CONCLU%C3%8DDO&color=%3CCOLOR%3E&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
 
 ## 5. Boilerplate
 
@@ -107,27 +108,22 @@ e end-to-end. Essa pasta não foi modificada durante a execução do projeto.
 - **[`src/style.css`]**(./src/style.css): este arquivo contém o CSS, que configura as regras de
 estilo da página. Não foi permitido o uso de frameworks de CSS (Bootstrap, Materialize, etc).
 
-- **[`src/analyzer.js`]**(./src/analyzer.js): aqui você deve implementar
-o objeto `analyzer`, que já está _exportado_ no _boilerplate_.
-Este objeto (`analyzer`) deve conter seis métodos:
+- **[`src/analyzer.js`]**(./src/analyzer.js): este arquivo contém o objeto `analyzer`, com os seis métodos:
 
-  + `analyzer.getWordCount(text)`: esta função deve retornar a contagem de
+  + `analyzer.getWordCount(text)`: esta função retorna a contagem de
   palavras que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getCharacterCount(text)`: esta função deve retornar a
+  + `analyzer.getCharacterCount(text)`: esta função retorna a
   contagem de caracteres que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getCharacterCountExcludingSpaces(text)`: esta função deve
-  retornar a contagem de caracteres excluindo espaços e sinais de pontuação
+  + `analyzer.getCharacterCountExcludingSpaces(text)`: esta função
+  retorna a contagem de caracteres excluindo espaços e sinais de pontuação
   que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getNumberCount(text)`: esta função deve retornar quantos
+  + `analyzer.getNumberCount(text)`: esta função retorna quantos
   números estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getNumberSum(text)`: esta função deve retornar a soma de todos os
+  + `analyzer.getNumberSum(text)`: esta função retorna a soma de todos os
   números que estão no parâmetro `text` do tipo `string`.
-  + `analyzer.getAverageWordLength(text)`: esta função deve retornar o
+  + `analyzer.getAverageWordLength(text)`: esta função retorna o
   comprimento médio das palavras que estão no parâmetro `text` do tipo
-  `string`. Use 2 casas decimais.
-
-  Para exemplos de uso de cada função, recomendamos ver o arquivo
-  [`test/analyzer.spec.js`](./test/analyzer.spec.js).
+  `string`. Usando 2 casas decimais. 
 
   _Nota: para simplificar as funcionalidades, definiremos palavras como grupos
   de caracteres separados por espaços. Por exemplo, as palavras no texto de
@@ -138,23 +134,11 @@ Este objeto (`analyzer`) deve conter seis métodos:
   + _`consegue`_
   + _`fazer!`_
 
-- [`src/index.js`](./src/index.js): aqui você deve ouvir eventos do DOM,
-invocar os métodos do objeto `analyzer` conforme necessário e atualizar
-o resultado na IU (interface de usuária).
-- [`test/analyzer.spec.js`](./test/analyzer.spec.js): este arquivo contém os
-testes unitários para os métodos do objeto `analyzer`.
+- **[`src/index.js`]**(./src/index.js): este arquivo contém os escutadores de eventos do DOM,
+que invoca os métodos do objeto `analyzer` conforme necessário e atualiza o resultado na IU 
+(interface de usuária). Na execução foram utilizados os métodos: getElementById, querySelector e addEventListener.
 
 ---
-
-#### Deploy
-
-Fazer com que os sites sejam publicados (ou _deployed_) para que as usuárias da
-web possam acessá-los é algo comum em projetos de desenvolvimento de software.
-
-Neste projeto, usaremos o _Github Pages_ para implantar nosso site.
-
-O comando `npm run deploy` pode ajudá-lo com essa tarefa e você também pode
-consultar a [documentação oficial](https://docs.github.com/pt/pages).
 
 ## 6. Critérios de Aceitação Mínimos do Projeto
 
@@ -489,6 +473,16 @@ na aba _Actions_ do seu repositório no GitHub,
 como mostrado na seguinte imagem:
 
 ![GitHub Action](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650640-a8a8ed26-6f48-4053-8b3b-7dec7e35a9f8.gif "GitHub Action")
+
+#### Deploy
+
+Fazer com que os sites sejam publicados (ou _deployed_) para que as usuárias da
+web possam acessá-los é algo comum em projetos de desenvolvimento de software.
+
+Neste projeto, usaremos o _Github Pages_ para implantar nosso site.
+
+O comando `npm run deploy` pode ajudá-lo com essa tarefa e você também pode
+consultar a [documentação oficial](https://docs.github.com/pt/pages).
 
 ## 8. Dicas, sugestões e leituras complementares
 
