@@ -1,4 +1,4 @@
-![Analisador de Texto]<img src="/src/BannerTextAnalyzer.jpg">
+<img src="/src/BannerTextAnalyzer.jpg">
 
 ## Índice
 
