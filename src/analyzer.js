@@ -23,7 +23,7 @@ const analyzer = {
   //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   getNumberCount: (text) => {
     const number = text.match(/\b\d+(\.\d+)?\b/g);
-
+    console.log (number);
     if (number) {
       return number.length;
     } else {
