@@ -18,72 +18,56 @@
 
 ## 1. Considerações gerais
 
-- Este projeto será resolvido de forma **individual**.
-- A estimativa de tempo para completar o projeto varia de 2 a 4 Sprints.
-- Concentre-se em aprender, não apenas em "completar" o projeto.
-- Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito com o que você _ainda_ não entende.
-  Você aprenderá ao longo do processo.
+- Este projeto foi desenvolvido de forma **individual**, com apoio da equipe e das colegas do Bootcamp de Desenvolvimento Front-end da **Laboratória**
+- O tempo para completar o projeto foi 3 Sprints.
+- O principal objetivo desse projeto é a aprendizagem e o desenvolvimento de habilidades técnicas e softskilss.
 
 ## 2. Preâmbulo
 
-![Uma lupa sobre texto de livro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
-
-_Créditos: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_em [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-
-Um analisador de texto é uma aplicação para extrair informações úteis de um
-texto utilizando diversas técnicas, como o processamento de linguagem natural
-(PLN),aprendizado de máquina (ML) e análise estatística. Essas aplicações podem
-fornecer uma variedade de métricas que oferecem informações básicas sobre
-o comprimento e a estrutura do texto, como contagem de palavras, contagem de
-caracteres, contagem de sentenças e contagem de parágrafos. Outras métricas
-incluem análise de sentimentos, que utiliza técnicas de PLN para determinar
-o tom geral positivo, negativo ou neutro do texto, e análise de legibilidade,
-que utiliza algoritmos para avaliar a complexidade e legibilidade do texto.
-
-Em geral, as aplicações de análise de texto fornecem informações valiosas e métricas
-sobre os textos que podem ajudar os usuários a tomar decisões informadas e tirar
-conclusões significativas. Por meio do uso dessas ferramentas de análise, os usuários
-podem obter uma compreensão mais profunda dos textos.
+Um analisador de texto é uma aplicação para extrair informações úteis de 
+um texto. Essa aplicação pode fornecer uma variedade de métricas que oferecem
+informações básicas: contagem de palavras, contagem de caracteres, contagem de 
+caracteres excluindo espaços e sinais de pontuação, contagem de números, soma 
+total de números e comprimento médio das palavras.
+Em geral, as aplicações de análise de texto fornecem informações e métricas sobre
+os textos que podem ajudar as usuárias a tomar decisões e tirar conclusões significativas. 
 
 ## 3. Resumo do projeto
 
-Neste projeto, você criará uma aplicação web que permitirá que a usuária analise
-um texto no navegador, exibindo uma série de indicadores e métricas específicas
-sobre caracteres, letras, números, etc., que foram inseridos por ela como entrada.
-Você realizará isso usando HTML, CSS e JavaScript.
+Neste projeto, foi desenvolvida uma aplicação que permite a usuária analisar no navegador,
+um texto inserido por ela, obtendo uma séria de indicadores e métricas específicas sobre caracteres, letras, números, etc.
+O analisador de texto foi desenvolvido utilizando HTML, CSS e JavaScript.
 
 ## 4. Funcionalidades
 
 A lista de funcionalidades é a seguinte:
 
-1. A aplicação deve permitir que a usuária insira um texto escrevendo-o
+1. A aplicação permite que a usuária insira um texto escrevendo-o
     em uma caixa de texto.
 
-2. A aplicação deve calcular as seguintes métricas e atualizar o
+2. A aplicação calcula as seguintes métricas e atualiza o
     resultado em tempo real conforme a usuária escreve o texto:
 
-    - **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
+    - **Contagem de palavras**: a aplicação é capaz de contar o número de
     palavras no texto de entrada e mostrar essa contagem para a usuária.
-    - **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
+    - **Contagem de caracteres**: a aplicação é capaz de contar o número de
     caracteres no texto de entrada, incluindo espaços e sinais de
-    pontuação, e mostrar essa contagem para a usuária.
+    pontuação, e mostra essa contagem para a usuária.
     - **Contagem de caracteres excluindo espaços e sinais de pontuação**:
-    a aplicação deve ser capaz de contar o número de caracteres no texto de
-    entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
+    a aplicação é capaz de contar o número de caracteres no texto de
+    entrada, excluindo espaços e sinais de pontuação, e mostra essa contagem
     para a usuária.
-    - **Contagem de números**: a aplicação deve contar quantos números há no
-    texto de entrada e mostrar essa contagem para a usuária.
-    - **Soma total dos números**: a aplicação deve somar todos os números que
-    estão no texto de entrada e mostrar o resultado para a usuária.
-    - **Comprimento médio das palavras**: a aplicação deve calcular o
-    comprimento médio das palavras no texto de entrada e mostrar esse valor para a usuária.
+    - **Contagem de números**: a aplicação é capaz de contar quantos números há no
+    texto de entrada e mostra essa contagem para a usuária.
+    - **Soma total dos números**: a aplicação é capaz de somar todos os números que
+    estão no texto de entrada e mostra o resultado para a usuária.
+    - **Comprimento médio das palavras**: a aplicação é capaz de calcular o
+    comprimento médio das palavras no texto de entrada e mostra esse valor para a usuária.
 
-3. A aplicação deve permitir limpar o conteúdo da caixa de texto ao clicar
-    em um botão.
+3. A aplicação permite limpar o conteúdo da caixa de texto ao clicar
+    em no botão "LIMPAR TEXTO".
 
-![Demonstração do analisador de texto](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Demonstração do analisador de texto")
+![Demonstração do analisador de texto](src/TextAnalyzerGif.gif "Demonstração do analisador de texto")
 
 ## 5. Boilerplate
 
