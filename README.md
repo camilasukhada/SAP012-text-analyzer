@@ -93,20 +93,18 @@ O _boilerplate_ continha a seguinte estrutura:
         ├── .eslintrc
         └── analyzer.spec.js
 
-### Descrição de scripts / arquivos
+### Descrição de scripts / arquivos implementados no desenvolvimento do projeto.
 
 - **`README.md`**: este arquivo a princípio continha as orientações e regras para a execução do projeto. E posteriormente, foi editado para o presente arquivo com as descrições e observações sobre a conclusão do projeto.
-
-- `.github/workflows`: esta pasta contém a configuração para
-a execução do Github Actions. Essa pasta não foi modificada durante a execução do projeto.
-
-- `read-only/`: esta pasta contém os testes dos critérios mínimos de aceitação
-e end-to-end. Essa pasta não foi modificada durante a execução do projeto.
 
 - **[`src/index.html`]**(./src/index.html): este arquivo contém o HTML, que fornece a estrutura da página.
 
 - **[`src/style.css`]**(./src/style.css): este arquivo contém o CSS, que configura as regras de
 estilo da página. Não foi permitido o uso de frameworks de CSS (Bootstrap, Materialize, etc).
+
+- **[`src/index.js`]**(./src/index.js): este arquivo contém os escutadores de eventos do DOM,
+que invoca os métodos do objeto `analyzer` conforme necessário e atualiza o resultado na IU 
+(interface de usuária). Na execução foram utilizados os métodos: getElementById, querySelector e addEventListener.
 
 - **[`src/analyzer.js`]**(./src/analyzer.js): este arquivo contém o objeto `analyzer`, com os seis métodos:
 
@@ -133,10 +131,6 @@ estilo da página. Não foi permitido o uso de frameworks de CSS (Bootstrap, Mat
   + _`você`_
   + _`consegue`_
   + _`fazer!`_
-
-- **[`src/index.js`]**(./src/index.js): este arquivo contém os escutadores de eventos do DOM,
-que invoca os métodos do objeto `analyzer` conforme necessário e atualiza o resultado na IU 
-(interface de usuária). Na execução foram utilizados os métodos: getElementById, querySelector e addEventListener.
 
 ---
 
