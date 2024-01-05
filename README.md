@@ -134,7 +134,7 @@ que invoca os métodos do objeto `analyzer` conforme necessário e atualiza o re
 
 ---
 
-## 6. Critérios de Aceitação Mínimos do Projeto
+## 6. Objetivos de Aprendizagem
 
 A seguir, você encontrará os critérios de aceitação mínimos do projeto
 relacionados a cada objetivo de aprendizado.
@@ -144,9 +144,7 @@ relacionados a cada objetivo de aprendizado.
 - **Uso de HTML semântico**
 
   + [ ] A aplicação possui um cabeçalho composto por um
-        [`<header>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/header)
-        que é pai de um
-        [`<h1>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements)
+        [`<header>`] que é pai de um [`<h1>`]
         com o texto `Analisador de texto`. Para que você possa praticar mais, esses
         elementos não podem ter atributos `id`, `name` ou `class`.
 
