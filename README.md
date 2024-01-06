@@ -344,12 +344,12 @@ que invoca os métodos do objeto `analyzer` conforme necessário e atualiza o re
 
 ### Design do Produto
 
-- **O proejeto foi desenvolvido respeitando os princípios básicos do design visual**
+- **O projeto foi desenvolvido respeitando os princípios básicos do design visual**
 
   + [ ] Foram consideradas as regras básicas de
         design visual: contraste, alinhamento e hierarquia.
 
-- **O proejeto escolheu como inspiração o seguinte modelo:**
+- **O projeto escolheu como inspiração o seguinte modelo:**
 <img src="/src/Inspiração TextAnalyzer.jpg">
 
 ## 7. Testes
