@@ -457,8 +457,6 @@ Neste projeto, foi utilizado o _Github Pages_ para implantar o site: [Text Analy
 
 + JavaScript
 
-Junte-se ao canal do Slack [#project-text-analyzer-pt](https://claseslaboratoria.slack.com/archives/C067QN2GFCM)
-
 ## 9. Colaboração e suporte
 
 <table>
