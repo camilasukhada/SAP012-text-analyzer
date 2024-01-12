@@ -4,8 +4,8 @@ const analyzer = {
 
   // Esta função deve retorna a contagem de palavras que se encontram no parâmetro 'text' de tipo 'string':
   getWordCount: (text) => {
-    const words = text.trim().split(' ');
-    if (text) {
+    const words = text.replace(/[.,;:"«»\[\]\{\}\(\)¿\?¡!-]/gm,'').trim().split(' ');
+    if (words) {
       return words.length;
     } else {
       return 0;
@@ -16,7 +16,7 @@ const analyzer = {
 
   // Esta função retorna a contagem de caracteres que se encontram no parâmetro 'text' de tipo 'string':
   getCharacterCount: (text) => {
-    return text.length;
+    return text.trim().length;
 
   },
 
@@ -58,9 +58,11 @@ const analyzer = {
 
   // Esta função retorna o comprimento médio das palavras que se encontram no parâmetro 'text'de tipo 'string':
   getAverageWordLength: (text) => {
-    const numberOfWords = text.split(' ');
+    const numberOfWords = text.trim().split(' ');
     let numberOfCharacters = 0;
-
+    if(!numberOfWords){
+      return 0;
+    } 
     for (let i = 0; i < numberOfWords.length; i++) {
       numberOfCharacters += numberOfWords[i].length;
     }
